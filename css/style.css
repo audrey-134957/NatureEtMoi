@@ -1,0 +1,18 @@
+/*Section top page*/
+
+.body {
+    margin: 0 auto;
+}
+
+.top-page {
+    background-image: url("../images/bg.jpg");
+    height: 70vh;
+}
+
+.top-page__logo {
+        max-width: 150px;
+
+    @media screen and (max-width: 768px - 1px) {
+        max-width: 100px;
+    }
+}
